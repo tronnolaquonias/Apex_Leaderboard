@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.loading {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+/* Leaderboard Container */
+.leaderboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.platform-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.platform-buttons button {
+  background-color: #2c2c3e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.platform-buttons button.active,
+.platform-buttons button:hover {
+  background-color: #3f3f5a;
+}
+
+.leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.leaderboard th,
+.leaderboard td {
+  padding: 10px;
+  text-align: left;
+}
+
+.leaderboard th {
+  background-color: #2c2c3e;
+}
+
+.leaderboard tr:nth-child(even) {
+  background-color: #2c2c3e;
+}
+
+.leaderboard tr:nth-child(odd) {
+  background-color: #3f3f5a;
+}
+
+.leaderboard td {
+  border-bottom: 1px solid #4e4e6a;
+}
