@@ -1,1 +1,0 @@
-This is the Web Scraper Apex Leaderboard Project
