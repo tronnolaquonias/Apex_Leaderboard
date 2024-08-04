@@ -12,7 +12,7 @@ const Leaderboard = () => {
 
   const fetchLeaderboard = (platform) => {
     const port = platform === 'pc' ? 5001 : platform === 'xbox' ? 5002 : 5003;
-    fetch(`http://127.0.0.1:${port}/api/leaderboard/${platform}`)
+    fetch(`http://3.81.231.249:${port}/api/leaderboard/${platform}`)
       .then((response) => response.json())
       .then((data) => {
         setPlayers(data);
